@@ -1,0 +1,550 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.profile-creation-box input {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.profile-creation-box h1 {
+  font-size: 28px;
+}
+.profile {
+  display: flex;
+}
+
+.profileRight {
+  flex: 9;
+}
+
+.profileCover {
+  height: 320px;
+  position: relative;
+}
+
+.profileCoverImg {
+  width: 102%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profileUserImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+  border: 3px solid white;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.profileInfoName {
+  font-size: 24px;
+}
+
+.profileInfoDesc {
+  font-weight: 300;
+}
+
+.profileRightBottom {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .homeContainer {
+    display: grid;
+    max-width: 400px;
+  }
+
+  .feed {
+    max-width: 405px;
+    margin-top: 10px;
+  }
+  .sidebar {
+    height: auto;
+  }
+  .sidebarFriendList {
+    display: none;
+  }
+  .sidebarWrapper {
+    display: none;
+  }
+  .rightbarWrapper {
+    display: none;
+  }
+
+  .shareWrapper {
+    padding: 2px;
+  }
+}
+
+.user-main {
+  background-color: #f5fcff;
+  color: #6097bf;
+  padding-top: 5rem;
+  min-height: 25vh;
+}
+
+.user-description {
+  width: 45%;
+  width: 66%;
+  font-size: 20px;
+  padding-bottom: 5rem;
+}
+.user-name {
+  font-size: 28px;
+}
+
+.profiles-container {
+  background-color: #dcecf4;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  color: #6097bf;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.profiles-title {
+  margin-top: 2rem;
+}
+.profile-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: 0rem;
+}
+.profile-creation-gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+  margin: 0rem;
+  margin-right: 4rem;
+}
+
+.admins-list {
+  background-color: #abc9db;
+  width: 50%;
+  text-decoration: none;
+  color: #6097bf;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+
+.profile-name {
+  color: #6097bf;
+  font-size: 18px;
+}
+.profiles {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.profile-creation {
+  color: #6097bf;
+  background-color: #dcecf4;
+  display: flex;
+  justify-content: center;
+}
+
+.loginWrapper {
+  width: 70%;
+  display: flex;
+}
+
+.loginLeft,
+.loginRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLogo {
+  font-family: Alef !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px !important;
+  line-height: 136px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6097bf !important;
+}
+
+.loginDesc {
+  font-size: 24px;
+}
+
+.RegBox {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginInput {
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 35px !important;
+  padding-left: 20px;
+  margin: 2px;
+  margin-top: 4%;
+}
+.profile-creation-description {
+  height: 153px !important;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  width: 45%;
+  margin-top: 2rem;
+  margin-top: 40px;
+}
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1775ee;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.loginForgot {
+  text-align: center;
+  color: #1775ee;
+}
+
+.loginRegisterButton {
+  font-family: Alef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.profile-example-btn {
+  background: #fff;
+  /* padding-top: 0.5rem; */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+  .login {
+    flex-direction: row;
+  }
+  .loginWrapper {
+    flex-direction: column;
+  }
+  .loginLeft,
+  .loginRight {
+    align-items: center;
+  }
+  .loginDesc {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+.radio-container {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.radio-input-container {
+  margin: 0 2rem 0 2rem;
+}
+.profile-creation-names-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -65px;
+}
+.loginBox {
+  height: auto;
+}
+.profile-creation-box {
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  direction: rtl;
+  padding-bottom: 70px;
+}
+.profile-images {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.profile-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #6097bf;
+  margin-top: 40px;
+}
+.profile-image-container p {
+  margin-top: 2rem;
+}
+input::placeholder {
+  color: #abc9db;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  width: 95% !important;
+  height: 153px !important;
+}
+.create-profile-container {
+  background-color: #f0f2f5;
+  color: #6097bf;
+}
+.radio {
+  display: none;
+}
+.input-label {
+  background: #ffffff;
+  border-radius: 10px;
+  color: #abc9db;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+.active {
+  color: #6097bf;
+}
+.location-semicontainer {
+  width: 100%;
+}
+.add-btn {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+.add-btn:hover {
+  background: #abc9db;
+  color: #ffffff;
+}
+.add-btn:hover .inner-btn .line1.line2 {
+  border: 1px solid #fff;
+}
+.inner-btn {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+.line-1 {
+  position: absolute;
+  width: 45px;
+  height: 0px;
+  border: 1px solid #abc9db;
+  transform: rotate(90deg);
+}
+.line-2 {
+  position: absolute;
+  width: 45px;
+  height: 0px;
+  border: 1px solid #abc9db;
+}
+.inner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.delete-btn {
+  font-size: 25px;
+  color: #6097bf;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.axis-input {
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  padding-left: 20px;
+  margin: 2px;
+  width: 20%;
+}
+.axis-description {
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  padding-left: 20px;
+  margin: 2px;
+  width: 30%;
+}
+.create-btn {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  color: #6097bf;
+  cursor: pointer;
+  width: 185px;
+  height: 45px;
+  margin: auto;
+  margin-top: 70px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: 35px;
+  font-weight: 600;
+  transition-duration: 200ms;
+}
+.create-btn:hover {
+  background: #ffffff;
+  color: #6097bf;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input-cover::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'הוסף תמונת פרופיל + ';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  /* border: 1px solid #999; */
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.custom-file-grave::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-grave-cover::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-grave::before {
+  content: 'הוסף תמונה של הקבר + ';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  /* border: 1px solid #999; */
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+#profilePic::-webkit-file-upload-button {
+  visibility: hidden;
+}
+#profilePic::before {
+  content: '+ הוסף תמונות לגלריה';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  /* border: 1px solid #999; */
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input-cover::before {
+  content: 'הוסף תמונת קאבר + ';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  /* border: 1px solid #999; */
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.custom-file-input-cover {
+  width: 250px;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+.custom-file-input {
+  width: 250px;
+}
+.d-none {
+  display: none;
+}
+.birth-date-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+}

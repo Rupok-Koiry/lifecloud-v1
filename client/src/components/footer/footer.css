@@ -1,0 +1,31 @@
+.footer {
+  height: 100px;
+  color: #6097bf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer img {
+  padding-left: 60px;
+  height: 35px;
+  font-size: 24px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #abc9db;
+  cursor: pointer;
+}
+.footer-links {
+  left: 36%;
+  position: absolute;
+  width: 27vw;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 23px;
+}
+a {
+  text-decoration: none;
+  color: #6097bf;
+}

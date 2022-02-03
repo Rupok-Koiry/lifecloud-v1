@@ -1,0 +1,23 @@
+.top-about {
+  background: #abc9db;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.about-container p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.about-container span {
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+  }
+.bottom-about {
+    padding-top: 3rem;
+  background-color: #f5fcff;
+  color: #6097bf;
+}

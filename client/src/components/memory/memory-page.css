@@ -1,0 +1,111 @@
+.memory-page {
+  height: 100vh;
+  min-width: 100vw;
+  background: #fff;
+  color: #6097bf;
+  text-align: center;
+  overflow-y: auto;
+}
+.close-btn {
+  padding-top: 2rem;
+  cursor: pointer;
+}
+.clost-btn img {
+  height: 15px;
+}
+.top-cloud {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+.single-memory-title {
+  padding-top: 5rem;
+}
+.single-memory-img {
+  border-radius: 15px;
+  height: 40vh;
+  width: 60vw;
+}
+.single-memory-content-container {
+  z-index: 1;
+  position: relative;
+  width: 80vw;
+  margin: auto;
+}
+.single-memory-subcontainer {
+  margin: auto;
+}
+.single-memory-text {
+  padding-top: 5rem;
+}
+.comments-container {
+  padding-top: 5rem;
+}
+.comment-img {
+  height: 50px;
+  border-radius: 100%;
+  width: 50px;
+}
+.comment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 7px;
+}
+.comment-subcontainer p {
+  margin-left: 5px;
+}
+.comment-subcontainer {
+  display: flex;
+  align-items: center;
+}
+.comment-btn {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background: #abc9db;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btns {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.action-btn {
+  width: 48%;
+  height: 50px;
+  background: #abc9db;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.action-btns-container {
+  padding-top: 3rem;
+}
+.dlt-comment-btn {
+  margin-top: 1rem;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background: #dcecf4;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

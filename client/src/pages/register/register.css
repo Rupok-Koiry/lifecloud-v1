@@ -1,0 +1,198 @@
+.register {
+  background-color: #dcecf4;
+  display: flex;
+  align-items: flex-start;
+  max-width: 99.65vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+}
+
+.loginWrapper {
+  display: flex;
+}
+.register-wrapper {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginLeft,
+.loginRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-logo {
+  font-family: Alef !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 75px !important;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6097bf !important;
+}
+
+.loginDesc {
+  font-size: 24px;
+}
+
+.RegBox {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.register-input {
+  text-align: center;
+  direction: rtl;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 25px !important;
+  padding-left: 20px;
+  margin: 2px;
+  margin-top: 4%;
+  height: 40px;
+  font-weight: 600;
+}
+[type='date']::-webkit-inner-spin-button {
+  display: none;
+}
+[type='date']::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.name-input {
+  text-align: center;
+  direction: rtl;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 25px !important;
+  padding-left: 20px;
+  margin: 2px;
+  margin-top: 4%;
+  width: 42%;
+  height: 40px;
+  color: #abc9db;
+  font-weight: 600;
+}
+.loginInput:focus {
+  outline: none;
+}
+
+.register-button {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #6097bf;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 2px;
+  transition-duration: 200ms;
+}
+.register-button:hover {
+  background-color: #fff;
+  color: #6097bf;
+}
+.register-actions {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #6097bf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.register-actions a {
+  text-decoration: none;
+  color: #6097bf;
+  cursor: pointer;
+}
+.register-actions div {
+  margin-bottom: 1rem;
+}
+
+.loginForgot {
+  text-align: center;
+  color: #1775ee;
+}
+
+.loginRegisterButton {
+  font-family: Alef;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .login {
+    flex-direction: row;
+  }
+  .loginWrapper {
+    flex-direction: column;
+  }
+  .loginLeft,
+  .loginRight {
+    align-items: center;
+  }
+  .loginDesc {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+.radio-container-register {
+  direction: rtl;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+}
+.radio-input-container-register {
+  background: #fff;
+  margin: 0 1rem 0 1rem;
+  width: 40px;
+  color: #6097bf;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  height: 40px;
+  font-size: 25px;
+
+}
+.register-active {
+  background: #6097bf;
+  color: #fff;
+}
+.names-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.loginBox {
+  height: auto;
+}
+input::placeholder {
+  color: #abc9db;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+@font-face {
+  font-family: 'almoni-light'; /*Can be any text*/
+  src: local('almoni-dl-aaa-light'),
+    url('./fonts/almoni-dl-aaa-light.otf') format('truetype');
+}
+@font-face {
+  font-family: 'almoni-bold'; /*Can be any text*/
+  src: local('almoni-dl-aaa-bold'),
+    url('./fonts/almoni-dl-aaa-bold.otf') format('truetype');
+}
+@font-face {
+  font-family: 'pilkahol'; /*Can be any text*/
+  src: local('FtPilKahol-1.00-400-Regular'),
+    url('./fonts/FtPilKahol-1.00-400-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'almoni-regular'; /*Can be any text*/
+  src: local('almoni-dl-aaa-regular'),
+    url('./fonts/almoni-dl-aaa-regular.otf') format('truetype');
+}
+* {
+  font-family: 'almoni-light', sans-serif;
+}
+body {
+  font-family: 'almoni-light', sans-serif !important;
+}
+input {
+  color: #6097bf;
+}
+input:focus {
+  outline: none;
+  opacity: 0.9;
+}

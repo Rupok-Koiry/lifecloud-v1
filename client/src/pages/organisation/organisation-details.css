@@ -1,0 +1,464 @@
+.profile-cover {
+    width: 100%;
+    max-height: 50vh;
+  }
+  .profile-details {
+    direction: rtl;
+    height: 400px;
+    background-image: url('../../assets/leftImageBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .hideBtn {
+    display: none;
+  }
+  .profile-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin-left: 15%;
+  }
+  .deceased-details {
+    display: flex;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 4rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 135px;
+    font-family: Alef;
+  }
+  .small-btn {
+    background: #dcecf4;
+    border-radius: 10px;
+    color: #abc9db;
+    width: fit-content;
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  .big-btn {
+    display: flex;
+    background: #dcecf4;
+    border-radius: 10px;
+    color: #abc9db;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  .btns-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+  }
+  .big-btns-container {
+    display: flex;
+  }
+  .d-none {
+    display: none;
+  }
+  .active {
+    color: #6097bf;
+  }
+  .memorial-container {
+    display: flex;
+    padding: 5rem;
+    background: #dcecf4;
+    justify-content: center;
+    padding: 5rem;
+    background: #dcecf4;
+    flex-direction: column;
+    align-items: center;
+  }
+  .memorial-title {
+    color: #6097bf;
+    font-size: 50px;
+    margin-bottom: 2rem;
+  }
+  .details-and-icons {
+    direction: rtl;
+    color: #6097bf;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wall-main-container {
+    align-self: self-end;
+  }
+  .icon {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+  }
+  .no-link-icon {
+    opacity: 0.2;
+  }
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #6097bf;
+    font-size: 30px;
+  }
+  .gallery-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-left: 20px;
+    border: 1px solid #6097bf;
+  }
+  .last-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6097bf;
+    font-size: 75px;
+    font-weight: 100;
+  }
+  .gallery-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .full-btn {
+    text-align: center;
+    color: #6097bf;
+    font-size: 30px;
+    height: 50px;
+    width: 265px;
+    border: 2px solid #6097bf;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+  .full-memory-btn {
+    text-align: center;
+    color: #6097bf;
+    font-size: 30px;
+    height: 50px;
+    width: 265px;
+    border: 2px solid #6097bf;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grave-location-container {
+    margin-top: 5rem;
+    background-color: #dcecf4;
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+  .grave-location-title {
+    text-align: center;
+    color: #6097bf;
+    font-size: 50px;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .grave-img {
+    height: 30rem;
+    width: 40%;
+    border-radius: 15px;
+  }
+  .grave-imgs-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .navigation-btn {
+    display: flex;
+    background: #fff;
+    height: 65px;
+    width: 290px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .memories-title {
+    text-align: center;
+    color: #6097bf;
+    font-size: 50px;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .main-memory {
+    width: 100%;
+    padding: 2rem;
+    background: #6097bf;
+    border-radius: 15px;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    text-align: center;
+  }
+  .memory {
+    color: #abc9db;
+    font-size: 200px;
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+    border: 1px solid #6097bf;
+    background: #dcecf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+  }
+  .sub-memories-container {
+    width: 131vw;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .memories-sub-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    align-items: center;
+  }
+  .main-memory-content {
+    font-size: 70px;
+  }
+  .com-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .com-icon {
+    display: flex;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    background: #dcecf4;
+    text-align: center;
+    text-align: -webkit-center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .com-icon-img {
+    height: 40px;
+  }
+  .com-btn {
+    margin-top: 3rem;
+  }
+  .bio-content {
+    background: #dcecf4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6097bf;
+    padding-bottom: 4rem;
+  }
+  .bio-name {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .bio-bio {
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+  }
+  .life-axis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #6097bf;
+  }
+  .axis-name {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  
+  .axis-desc {
+    font-size: 30px;
+    width: 80%;
+    margin-bottom: 5rem;
+  }
+  .axis-container {
+    display: flex;
+    color: #6097bf;
+    justify-content: center;
+    margin-bottom: 5rem;
+    align-items: center;
+  }
+  .axis-sub-container {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  .axis-bubble {
+    margin-left: 3rem;
+    background: #abc9db;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 17px;
+  }
+  .axis-title {
+    text-align: end;
+  }
+  .axis-description2 {
+    text-align: end;
+    font-size: 14px;
+  }
+  .image-gallery-section {
+    height: 100%;
+    width: 250px;
+  }
+  .last-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 115px;
+    font-weight: 100;
+  }
+  
+  .display {
+    display: block !important;
+  }
+  .full-gallery-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+  }
+  
+  .full-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .heart-icon {
+    height: 20px;
+    width: 25px;
+  }
+  .heart-container {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: -65px;
+    margin-left: 15px;
+  }
+  .heart-div {
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    justify-content: center;
+  }
+  
+  .full-gallery-img-container {
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+  }
+  
+  .memories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+    cursor: pointer;
+  }
+  .memory-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+  }
+  .memory-container {
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+  }
+  
+  .profile-icons-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .memory-actions {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    margin: auto;
+  }
+  .memories-div {
+    padding-bottom: 3rem;
+  }
+  .profile-creation-title {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    color: #6097bf;
+  }
+  input[type='date']::before {
+    color: #abc9db;
+    content: attr(placeholder);
+    padding-left: 35%;
+  }
+  input[type='date'] {
+    text-align: unset;
+    color: #ffffff;
+  }
+  input[type='date']:focus,
+  input[type='date']:valid {
+    color: #abc9db;
+  }
+  input[type='date']:focus::before,
+  input[type='date']:valid::before {
+    content: '' !important;
+  }
+  
